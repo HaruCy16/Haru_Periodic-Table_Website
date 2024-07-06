@@ -1,0 +1,226 @@
+body {
+  background-image: url(ElementPics/BGPeriodicTable.jpg);
+}
+* {
+  color: white;
+}
+.navigation-head {
+  text-align: end;
+}
+.home-page {
+  margin-right: 10px;
+}
+.home-page:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.home-page:active {
+  opacity: 3px;
+}
+.about-page {
+  margin-right: 10px;
+}
+.about-page:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.about-page:active {
+  opacity: 3px;
+}
+.contact-page {
+  margin-right: 10px;
+}
+.contact-page:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.contact-page:active {
+  opacity: 3px;
+}
+.title-text {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.subtitle {
+  font-style: italic;
+}
+.table-container {
+  display: flex;
+  flex-direction: row;
+}
+.g4and12-elements {
+  flex-direction: row;
+  display: flex;
+  background-color: blueviolet;
+  height: fit-content;
+  margin-right: 30px;
+}
+.group1-elements {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: rgb(254, 201, 162);
+  margin-right: 30px;
+}
+.h-element {
+  background-color: peachpuff;
+}
+.hydrogen:hover {
+  cursor: pointer;
+}
+.group2-elements {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: rgb(255, 173, 115);
+  margin-right: 30px;
+}
+.group3-elements {
+  background-color: rgb(218, 255, 132);
+  height: fit-content;
+  grid-template-columns: 1fr;
+  display: grid;
+  margin-right: 30px;
+}
+.actinium {
+  background-color: rgb(76, 118, 255);
+}
+.group4-elements,
+.group5-elements,
+.group6-elements,
+.group7-elements,
+.group8-elements,
+.group9-elements,
+.group10-elements,
+.group11-elements {
+  margin-right: 30px;
+}
+.group13-elements,
+.group14-elements,
+.group15-elements,
+.group16-elements {
+  background-color: rgb(246, 75, 186);
+  height: fit-content;
+  grid-template-columns: 1fr;
+  display: grid;
+  margin-right: 30px;
+}
+.b-element {
+  background-color: peachpuff;
+}
+.non-metals-group {
+  background-color: peachpuff;
+}
+.group17-elements {
+  background-color: rgb(127, 255, 48);
+  height: fit-content;
+  grid-template-columns: 1fr;
+  display: grid;
+  margin-right: 30px;
+}
+.group18-elements {
+  background-color: rgb(59, 120, 252);
+  height: fit-content;
+  grid-template-columns: 1fr;
+  display: grid;
+  margin-right: 30px;
+}
+.element-labels {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+.label-title {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.element-labels-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding-left: 190px;
+}
+.alkali-metals {
+  background-color: rgb(254, 201, 162);
+}
+.alkaline-earth-metals {
+  background-color: rgb(255, 173, 115);
+}
+.transition-metals {
+  background-color: blueviolet;
+}
+.other-metals {
+  background-color: rgb(246, 75, 186);
+}
+.other-non-metals {
+  background-color: peachpuff;
+}
+.halogens {
+  background-color: rgb(127, 255, 48);
+}
+.noble-gases {
+  background-color: rgb(59, 120, 252);
+}
+.rare-earth {
+  background-color: rgb(218, 255, 132);
+}
+.actinoid {
+  background-color: rgb(76, 118, 255);
+}
+.alkali-metals:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+.alkaline-earth-metals:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+.transition-metals:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+.other-metals:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+.other-non-metals:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+.halogens:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+.noble-gases:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+.rare-earth:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+.actinoid:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
